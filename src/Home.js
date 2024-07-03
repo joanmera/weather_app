@@ -24,7 +24,7 @@ function Home() {
         return response.json();
       })
       .then(res => {
-        console.log(res); // Verificar que res contiene los datos esperados
+        console.log(res); 
         let imagePath = '';
         switch (res.weather[0].main) {
           case "Clouds":
